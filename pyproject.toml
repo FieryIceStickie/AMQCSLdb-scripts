@@ -1,0 +1,19 @@
+[project]
+name = "amq_scripts"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "amqcsldb-py[docs]",
+    "cutlet>=0.5.0",
+    "unidic>=1.1.0",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.uv.sources]
+amqcsldb-py = { path = "../amqcsldb-py", editable = true }

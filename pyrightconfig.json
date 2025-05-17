@@ -1,0 +1,15 @@
+{
+    "typeCheckingMode": "strict",
+    "reportUnusedCallResult": false,
+    "reportUnusedVariable": false,
+    "reportUnreachable": false,
+    "reportUnnecessaryComparison": false,
+    "reportMissingTypeStubs": false,
+    "include": ["scripts"],
+    "executionEnvironments": [
+        {
+            "root": "scripts",
+            "extraPaths": ["."]
+        }
+    ]
+}
